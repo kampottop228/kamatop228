@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("/blich.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.panel {
+    background-color: #f8f8f862;
+    border: 1px solid #dddddd00;
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.aboba {
+    display: inline-block;
+    margin-right: 10px;
+}
+.img img {
+    width: 80px;
+    border-radius: 30px;
+}
+.img{
+    position: absolute;
+    width: auto;
+    top: 20px;
+    right:20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown ul {
+    display: none;
+    position: absolute;
+    background-color: #ed92903a;
+    border: 1px solid #000000;
+    padding: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown:hover ul {
+    display: block;
+}
+.fack{
+    margin-right: 12px;
+}
+
+.main-nav-li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.story-section {
+    margin: auto;
+    min-height: 100px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.rom{
+    margin: auto;
+    min-height: 100px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.89);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.onime{
+    width: 1150px;
+    background-position: right;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    display: flex;
+}
+.tobat{
+    background-color: rgba(109, 105, 105, 0.756);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    width: 200px;
+    letter-spacing: 1px;
+    margin-right: 123.3px;
+}
+.navbar-right a{
+    color: #fff;
+}
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.aboba {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown ul {
+    display: none;
+    position: absolute;
+    background-color: #ed92903a;
+    border: 1px solid #000000;
+    padding: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown:hover ul {
+    display: block;
+}
+
+.main-nav-li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.navbar-right a{
+    color: #fff;
+}
+.tob{
+    font-family: Arial, sans-serif;
+}
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+label {
+    display: block;
+    margin-top: 20px;
+}
+.input[type="text"], .input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+

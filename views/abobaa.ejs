@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./particle/head.ejs'); %>
+
+<body>
+    <style>
+        .story-section{
+            background-color: #333333ad;
+        }
+
+        html {
+            box-sizing: border-box;
+        }
+
+        *, *:before, *:after {
+            box-sizing: inherit;
+        }
+
+        ::placeholder {
+            color: #fff;
+            opacity: 1; /* Firefox */
+        }
+
+        .private {
+            position: fixed;
+            top: 40px;
+            left: 38.8%;
+            font-family: 'Poppins', sans-serif, 'arial';
+            font-weight: 500; /* Changed to a valid value */
+            font-size: 4.5rem;
+            color: #c7c3c3;
+            text-align: center;
+        }
+
+        .input-container input{
+            color: #fff;
+        }
+
+        .fourth {
+            position: fixed;
+            top: 21%;
+            left: 38.6%;
+            text-align: center;
+            font-family: 'Roboto', sans-serif, 'arial';
+            font-weight: 300; /* Changed to a valid value */
+            font-size: 1.2rem;
+            color: #c7c3c3;
+        }
+
+        .name, .email, .img, .textarea, input {
+            width: 30%;
+            position: fixed;
+            color: #fff;
+            left: 30%;
+            transition: all 0.25s ease;
+        }
+
+        .name {
+            top: 31%;
+        }
+
+        .email {
+            top: 46%;
+        }
+
+        .img {
+            top: 61%;
+        }
+
+        .textarea {
+            top: 75%;
+        }
+
+        input {
+            position: fixed;
+            padding: 2.7%;
+            height: 8%;
+            width: 38%;
+            font-size: 1rem;
+            background-color: rgba(254, 251, 251, 0.233);
+            border-radius: 1%;
+        }
+
+        button.send {
+            position: fixed;
+            top: 90%;
+            left: 53%;
+            width: 15%;
+            height: 8%;
+            font-family: 'Roboto', sans-serif, 'arial';
+            font-size: 1rem;
+            background-color: #000000b3;
+            border-radius: 3.7%;
+            color: #fff;
+        }
+    </style>
+    <%- include('./particle/nav.ejs'); %>
+    <form action="./abobaa.html" method="post" enctype="multipart/form-data">
+        <div>
+            <h5 class="private">Welcome</h5>
+            <h4 class="fourth">this is my reality what you see is unreal</h4>
+        </div>
+        <div class="name">
+            <input type="text" placeholder="Anime Name:" name="AnimeName"> 
+        </div>
+        <div class="email">
+            <input type="email" placeholder="Email:" name="mail">
+        </div>
+        <div class="img">
+            <input type="file" id="video" name="video">
+        </div>
+        <div class="cod-xs"> <!-- Not sure what this class is for -->
+            <button class="send">Отправить</button>
+        </div>
+    </form>
+</body>
+</html>

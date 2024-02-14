@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./particle/head.ejs'); %>
+<body>
+<%- include('./particle/nav.ejs'); %>
+<style>
+    video{
+        margin: 0 0 0 30%;
+    }
+</style>
+<div class="rom">
+    <video width="600" height="450"  controls>
+        <source src="<%=src%>"  type="video/mp4">
+    </video>
+</div>
+</body>
+</html>
